@@ -1,8 +1,105 @@
 <!DOCTYPE html>
 <html>
-    <head>
-    </head>
-    <body>
-        Here I want to explain to the user, what he needs to do if he wants to be nft´s owner
-    </body>
+<head>
+  <title>Página 2 - Hoja de Reclamaciones</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      color: #333;
+      font-size: 24px;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .step-container {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    .step {
+      display: flex;
+      align-items: center;
+      margin-bottom: 40px;
+    }
+
+    .step-number {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background-color: #333;
+      color: #fff;
+      font-size: 20px;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: 20px;
+    }
+
+    .step-content {
+      flex: 1;
+    }
+
+    .step-title {
+      color: #333;
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+
+    .step-description {
+      color: #666;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+    <h1>Hoja de Reclamaciones para tu NFT</h1>
+
+    <div class="step-container">
+        <div class="step">
+            <div class="step-number">1</div>
+            <div class="step-content">
+                <h2 class="step-title">Paso 1: Crea tu propia wallet en 1 minuto</h2>
+                <p class="step-description">Para ser propietario de tu nft y así poder canjearlo por alguno de nuestros premios,
+                es necesario tener tu propia wallet. Debes tener en cuenta que <b>no cualquier wallet tiene la capacidad de almacenar NFTs</b>. 
+                Nosotros te recomendamos <a href="https://www.mynearwallet.com"> MyNearWallet</a>, pincha en el link selecciona 'Create Account' y 
+                sigue los pasos que te indican para crear tu wallet. <b>Si ya la tienes puedes saltar al paso 2</b>.</p>
+            </div>
+        </div>
+
+        <div class="step">
+            <div class="step-number">2</div>
+            <div class="step-content">
+                <h2 class="step-title">Paso 2: Adjunta tu Account Id</h2>
+                <p class="step-description">Una vez hayas creado tu propia wallet, entra en ella y haz click en 'Receive'
+                para obtener tu Account Id. Asegúrate de adjuntarlo correctamente ya que una vez enviado no habrá vuelta
+                atrás y no se aceptarán reclamaciones en caso de que el NFT no llegue a tu wallet.</p>
+                <form action="guardar_account_id.php" method="POST">
+                    <label for="account-id">Account Id:</label>
+                    <input type="text" id="account-id" name="account-id">
+                    <br>
+                    <button type="submit">Adjuntar Account Id</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="step">
+            <div class="step-number">3</div>
+            <div class="step-content">
+                <h2 class="step-title">Paso 3: Enviar la reclamación</h2>
+                <p class="step-description">Una vez completados los pasos anteriores, haz clic en el botón "Enviar reclamación" para enviar tu reclamo. Te contactaremos pronto para confirmar la transferencia de tu NFT a tu wallet.</p>
+                <form action="enviar_reclamacion.php" method="POST">
+                    <button type="submit">Enviar reclamación</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</body>
 </html>
+
