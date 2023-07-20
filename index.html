@@ -1,44 +1,25 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <link rel="stylesheet" href="style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <style>
-        html, body {
-            height: 100%;
-            margin: 0;
-            padding: 0;
-        }
+    <head>
+        <link rel="stylesheet" href="style_index.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+    </head>
+    <body>
+        <div class="container">
+            <div onclick="location.href='pagina1.html';" class="full-screen-div">
+                <h1>MI NFT</h1>
+                <p>Haz clic aquí para ir ver la informacón incluida en tu NFT</p>
+            </div>
 
-        .full-screen-div {
-            width: 100%;
-            height: 50%;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            background-color: black;
-            color: white;
-            font-size: 24px;
-            cursor: pointer;
-        }
+            <div onclick="location.href='pagina2.html';" class="full-screen-div">
+                <h1>¿CÓMO RECLAMAR MI NFT?</h1>
+                <p>Haz clic aquí para ir ver como reclamar tu NFT</p>
+            </div>
 
-        .full-screen-div:nth-child(2) {
-            color:black;
-            background-color: rgb(46, 178, 46);
-        }
-    </style>
-</head>
-<body>
-    <div>
-        <div onclick="location.href='pruebanft.html';" class="full-screen-div">
-            <h1>MI NFT</h1>
-            <p>Haz clic aquí para ir ver la informacón incluida en tu NFT</p>
+            <div onclick="location.href='pagina3.html';" class="full-screen-div">
+                <h1>?</h1>
+                <p>Haz clic aquí para ver todos los premios disponibles</p>
+            </div>
         </div>
-        <div onclick="location.href='pagina2.html';" class="full-screen-div">
-            <h1>¿COMO RECLAMAR MI NFT?</h1>
-            <p>Haz clic aquí para ir ver como reclamar tu NFT</p>
-        </div>
-    </div>
-</body>
+    </body>
 </html>
