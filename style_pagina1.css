@@ -9,6 +9,7 @@ body {
     }
 
 .nft-card {
+    max-width: 600px;
     width: 90%;
     margin: 20px;
     padding: 20px;
@@ -52,6 +53,7 @@ h1 {
 }
 
 .nft-media img {
+    max-width: 100%;
     height: auto;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
