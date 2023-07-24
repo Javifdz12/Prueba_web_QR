@@ -13,11 +13,15 @@
       }
 
       h1 {
-        color: #fff;
-        font-size: 32px;
+        background-image: linear-gradient(45deg, #ff00cc, #00ffcc); /* Gradiente de colores */
+        -webkit-background-clip: text; /* Clip de texto para el gradiente */
+        background-clip: text; /* Clip de texto para el gradiente */
+        -webkit-text-fill-color: transparent;/* Texto transparente para mostrar el gradiente */
+        font-size: 48px; /* Tamaño más grande para un efecto impactante */
         text-align: center;
         margin-bottom: 40px;
         text-transform: uppercase;
+        letter-spacing: 2px; /* Espaciado entre letras */
       }
 
       .step-container {
@@ -32,25 +36,26 @@
       }
 
       .step-number {
-        width: 60px;
-        height: 60px;
-        border-radius: 50%;
-        background-color: #8fd3f4;
-        color: #111;
-        font-size: 28px;
+        font-size: 28px; /* Tamaño del número */
         font-weight: bold;
         display: flex;
         align-items: center;
         justify-content: center;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
         margin-right: 20px;
+        background-image: linear-gradient(45deg, #ff00cc, #00ffcc); /* Gradiente de colores */
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra */
       }
+
 
       .step-content {
         flex: 1;
       }
 
       .step-title {
-        color: #8fd3f4;
+        color: #65636e;
         font-size: 24px;
         margin-bottom: 10px;
         text-transform: uppercase;
@@ -77,7 +82,7 @@
       }
 
       button {
-        background-color: #8fd3f4;
+        background-image: linear-gradient(45deg, #ff00cc, #00ffcc); /* Gradiente de colores */
         color: #111;
         font-size: 20px;
         padding: 10px 20px;
@@ -85,11 +90,13 @@
         border-radius: 4px;
         cursor: pointer;
         transition: background-color 0.3s ease;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra */
       }
+
 
       button:hover {
         background-color: #111;
-        color: #8fd3f4;
+        color: white;
       }
     </style>
   </head>
