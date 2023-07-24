@@ -5,6 +5,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     background-color: #000000; /* Fondo completamente negro */
 }
 
@@ -13,38 +14,56 @@ body {
     width: 95%; /* Reducir ligeramente el ancho */
     margin: 20px;
     padding: 30px; /* Mayor espacio interno */
-    background-color: #212121; /* Color de fondo más oscuro */
-    border-radius: 20px; /* Bordes más redondeados */
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5); /* Sombra más pronunciada */
+    background-color: #2a2a2a; /* Color de fondo más oscuro */
+    border-radius: 30px; /* Bordes más redondeados */
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.5); /* Sombra más pronunciada */
 }
 
 h1 {
     color: #ffffff; /* Texto en color blanco */
-    font-size: 36px; /* Texto más grande */
+    font-size: 54px; /* Texto más grande y llamativo */
     text-align: center;
     margin-bottom: 30px; /* Mayor espacio inferior */
     text-transform: uppercase;
+    letter-spacing: 2px; /* Espaciado entre letras */
+    background-image: linear-gradient(45deg, #ff00cc, #00ffcc); /* Gradiente de colores */
+    -webkit-background-clip: text; /* Clip de texto para el gradiente */
+    background-clip: text; /* Clip de texto para el gradiente */
+    -webkit-text-fill-color: transparent; /* Relleno de texto transparente para mostrar el gradiente */
+}
+
+h2 {
+    color: #ffffff; /* Texto en color blanco */
+    font-size: 36px; /* Texto más grande y llamativo */
+    text-align: center;
+    margin-top: 30px; /* Mayor espacio superior */
+    text-transform: uppercase;
     letter-spacing: 1px; /* Espaciado entre letras */
+    background-image: linear-gradient(45deg, #00ffcc, #ff00cc); /* Gradiente de colores */
+    -webkit-background-clip: text; /* Clip de texto para el gradiente */
+    background-clip: text; /* Clip de texto para el gradiente */
+    -webkit-text-fill-color: transparent; /* Relleno de texto transparente para mostrar el gradiente */
 }
 
 .nft-image {
     width: 100%;
     height: auto;
-    border-radius: 20px; /* Bordes más redondeados */
-    box-shadow: 0 8px 12px rgba(255, 255, 255, 0.1); /* Sombra en color blanco */
+    border-radius: 30px; /* Bordes más redondeados */
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2); /* Sombra en color blanco */
 }
 
 .nft-description {
     color: #cccccc; /* Texto en color gris claro */
-    font-size: 20px; /* Texto más grande */
+    font-size: 22px; /* Texto más grande */
     margin-top: 30px; /* Mayor espacio superior */
     text-align: justify;
 }
 
 .nft-details {
     color: #cccccc; /* Texto en color gris claro */
-    font-size: 20px; /* Texto más grande */
+    font-size: 22px; /* Texto más grande */
     margin-top: 30px; /* Mayor espacio superior */
+    text-align: justify;
 }
 
 .nft-media {
@@ -59,8 +78,8 @@ h1 {
 .nft-media object {
     width: 100%; /* Cambiar el ancho a 100% */
     height: auto;
-    border-radius: 20px; /* Bordes más redondeados */
-    box-shadow: 0 8px 12px rgba(255, 255, 255, 0.1); /* Sombra en color blanco */
+    border-radius: 30px; /* Bordes más redondeados */
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2); /* Sombra en color blanco */
     max-width: 100%; /* Agregar un ancho máximo */
 }
 
@@ -68,7 +87,7 @@ h1 {
 .nft-media a {
     color: #ffffff; /* Color del enlace en blanco */
     text-decoration: none;
-    font-size: 18px; /* Texto más grande */
+    font-size: 20px; /* Texto más grande */
     transition: all 0.2s ease-in-out;
     margin-top: 20px; /* Mayor espacio superior */
 }
