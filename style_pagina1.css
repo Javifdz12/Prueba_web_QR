@@ -94,3 +94,7 @@ h2 {
 .nft-media a:hover {
     color: #55aaff; /* Cambiar el color en el hover */
 }
+
+.nft-media object[type="application/pdf"] {
+    background-color: #ffffff; /* Fondo blanco */
+}
