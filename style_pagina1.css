@@ -8,53 +8,53 @@ body {
     background-color: #f1f1f1;
     }
 
-    .nft-card {
+.nft-card {
     max-width: 600px;
     width: 90%;
-    margin: 20px;
-    padding: 20px;
+    margin: 2%;
+    padding: 2%;
     background-color: #ffffff;
-    border-radius: 8px;
+    border-radius: 1%;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    }
+}
 
-    h1 {
+h1 {
     color: #333;
     font-size: 24px;
     text-align: center;
     margin-bottom: 20px;
-    }
+}
 
-    .nft-image {
+.nft-image {
     width: 100%;
     height: auto;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    }
+}
 
-    .nft-description {
+.nft-description {
     color: #666;
     font-size: 16px;
     margin-top: 20px;
     text-align: justify;
-    }
+}
 
-    .nft-details {
+.nft-details {
     color: #666;
     font-size: 16px;
     margin-top: 20px;
-    }
+}
 
-    .nft-media {
+.nft-media {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
-    }
+    margin-top: 2%;
+}
 
-    .nft-media img {
+.nft-media img {
     max-width: 100%;
     height: auto;
-    border-radius: 8px;
+    border-radius: 1%;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    }
+}
