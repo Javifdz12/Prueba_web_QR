@@ -106,8 +106,11 @@ h2 {
 
 @media (max-width: 600px) {
     .nft-card {
-        width: 100%; /* Ancho completo en dispositivos móviles */
+        width: 90%; /* Ancho del 90% para dejar espacio lateral */
         max-width: none; /* Eliminar el ancho máximo para que se ajuste completamente */
         height: auto; /* Ajustar la altura automáticamente */
+        margin: 0 auto; /* Centrar horizontalmente el div */
+        padding: 20px; /* Espaciado horizontal para mantener la redondez */
+        margin-bottom: 20px; /* Espaciado inferior entre los div .nft-card */
     }
 }
