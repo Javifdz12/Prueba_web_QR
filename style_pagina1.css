@@ -11,10 +11,10 @@ body {
 .nft-card {
     max-width: 600px;
     width: 90%;
-    margin: 2%;
-    padding: 2%;
+    margin: 20px;
+    padding: 20px;
     background-color: #ffffff;
-    border-radius: 1%;
+    border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
@@ -49,12 +49,12 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 2%;
+    margin-top: 20px;
 }
 
 .nft-media img {
     max-width: 100%;
     height: auto;
-    border-radius: 1%;
+    border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
