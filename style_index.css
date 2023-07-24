@@ -2,6 +2,9 @@ html, body {
     height: 100%;
     margin: 0;
     padding: 0;
+    background-color: #111; /* Fondo más oscuro */
+    color: #fff; /* Texto en color blanco */
+    font-family: "Arial", sans-serif;
 }
 
 body {
@@ -22,19 +25,46 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color:#8fd3f4;
-    color: black;
     cursor: pointer;
     text-align: center;
-    padding:2%;
+    padding: 2%;
+    background-color: #3498db; /* Azul */
+    box-shadow: 0 0 30px rgba(52, 152, 219, 0.6); /* Sombra para un efecto futurista */
+    transition: background-color 0.3s ease;
 }
 
 .full-screen-div:nth-child(2) {
-    color: black;
-    background-color:white;
+    background-color: #e74c3c; /* Rojo */
+    box-shadow: 0 0 30px rgba(231, 76, 60, 0.6); /* Sombra para un efecto futurista */
 }
 
 .full-screen-div:nth-child(3) {
-    color: white;
-    background-color: #111;
+    background-color: #27ae60; /* Verde */
+    box-shadow: 0 0 30px rgba(39, 174, 96, 0.6); /* Sombra para un efecto futurista */
+}
+
+.full-screen-div:hover {
+    background-color: #ff00cc; /* Cambio de color de fondo en hover (Rosa lila) */
+    box-shadow: 0 0 30px rgba(255, 0, 204, 0.6); /* Cambio de sombra en hover (Rosa lila) */
+}
+
+h1 {
+    font-size: 48px; /* Tamaño del título */
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px; /* Espaciado entre letras */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Sombra en el texto para efecto futurista */
+}
+
+p {
+    font-size: 20px; /* Tamaño del texto */
+    line-height: 1.6; /* Espaciado entre líneas */
+    max-width: 80%; /* Ancho máximo del texto para una mejor legibilidad */
+}
+
+/* Estilo para los enlaces */
+a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
 }
