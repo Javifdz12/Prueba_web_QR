@@ -21,11 +21,11 @@ body {
 
 h1 {
     color: #ffffff; /* Texto en color blanco */
-    font-size: 54px; /* Texto más grande y llamativo */
+    font-size: 40px; /* Texto más grande y llamativo */
     text-align: center;
     margin-bottom: 30px; /* Mayor espacio inferior */
     text-transform: uppercase;
-    letter-spacing: 2px; /* Espaciado entre letras */
+    letter-spacing: 1px; /* Espaciado entre letras */
     background-image: linear-gradient(45deg, #ff00cc, #00ffcc); /* Gradiente de colores */
     -webkit-background-clip: text; /* Clip de texto para el gradiente */
     background-clip: text; /* Clip de texto para el gradiente */
@@ -34,11 +34,10 @@ h1 {
 
 h2 {
     color: #ffffff; /* Texto en color blanco */
-    font-size: 36px; /* Texto más grande y llamativo */
+    font-size: 25px; /* Texto más grande y llamativo */
     text-align: center;
     margin-top: 30px; /* Mayor espacio superior */
     text-transform: uppercase;
-    letter-spacing: 1px; /* Espaciado entre letras */
     background-image: linear-gradient(45deg, #00ffcc, #ff00cc); /* Gradiente de colores */
     -webkit-background-clip: text; /* Clip de texto para el gradiente */
     background-clip: text; /* Clip de texto para el gradiente */
@@ -54,13 +53,13 @@ h2 {
 
 .nft-description {
     color: #cccccc; /* Texto en color gris claro */
-    font-size: 22px; /* Texto más grande */
+    font-size: 15px; /* Texto más grande */
     margin-top: 30px; /* Mayor espacio superior */
 }
 
 .nft-details {
     color: #cccccc; /* Texto en color gris claro */
-    font-size: 22px; /* Texto más grande */
+    font-size: 15px; /* Texto más grande */
     margin-top: 30px; /* Mayor espacio superior */
 }
 
@@ -90,7 +89,7 @@ h2 {
 .nft-media a {
     color: #ffffff; /* Color del enlace en blanco */
     text-decoration: none;
-    font-size: 20px; /* Texto más grande */
+    font-size: 15px; /* Texto más grande */
     transition: all 0.2s ease-in-out;
     margin-top: 20px; /* Mayor espacio superior */
 }
