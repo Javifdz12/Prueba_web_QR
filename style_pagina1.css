@@ -1,48 +1,50 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Roboto", "Arial", sans-serif;
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #f1f1f1;
-    }
+    background-color: #000000; /* Fondo completamente negro */
+}
 
 .nft-card {
-    max-width: 600px;
-    width: 90%;
+    max-width: 800px; /* Aumentar el ancho máximo */
+    width: 95%; /* Reducir ligeramente el ancho */
     margin: 20px;
-    padding: 20px;
-    background-color: #ffffff;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 30px; /* Mayor espacio interno */
+    background-color: #212121; /* Color de fondo más oscuro */
+    border-radius: 20px; /* Bordes más redondeados */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5); /* Sombra más pronunciada */
 }
 
 h1 {
-    color: #333;
-    font-size: 24px;
+    color: #ffffff; /* Texto en color blanco */
+    font-size: 36px; /* Texto más grande */
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 30px; /* Mayor espacio inferior */
+    text-transform: uppercase;
+    letter-spacing: 1px; /* Espaciado entre letras */
 }
 
 .nft-image {
     width: 100%;
     height: auto;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 20px; /* Bordes más redondeados */
+    box-shadow: 0 8px 12px rgba(255, 255, 255, 0.1); /* Sombra en color blanco */
 }
 
 .nft-description {
-    color: #666;
-    font-size: 16px;
-    margin-top: 20px;
+    color: #cccccc; /* Texto en color gris claro */
+    font-size: 20px; /* Texto más grande */
+    margin-top: 30px; /* Mayor espacio superior */
     text-align: justify;
 }
 
 .nft-details {
-    color: #666;
-    font-size: 16px;
-    margin-top: 20px;
+    color: #cccccc; /* Texto en color gris claro */
+    font-size: 20px; /* Texto más grande */
+    margin-top: 30px; /* Mayor espacio superior */
 }
 
 .nft-media {
@@ -50,14 +52,27 @@ h1 {
     flex-direction: column; /* Cambiar a flex-direction: column */
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 30px; /* Mayor espacio superior */
     max-width: 100%; /* Agregar un ancho máximo */
 }
 
 .nft-media object {
     width: 100%; /* Cambiar el ancho a 100% */
     height: auto;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(239, 236, 236, 0.1);
+    border-radius: 20px; /* Bordes más redondeados */
+    box-shadow: 0 8px 12px rgba(255, 255, 255, 0.1); /* Sombra en color blanco */
     max-width: 100%; /* Agregar un ancho máximo */
+}
+
+/* Estilo para el enlace del PDF */
+.nft-media a {
+    color: #ffffff; /* Color del enlace en blanco */
+    text-decoration: none;
+    font-size: 18px; /* Texto más grande */
+    transition: all 0.2s ease-in-out;
+    margin-top: 20px; /* Mayor espacio superior */
+}
+
+.nft-media a:hover {
+    color: #55aaff; /* Cambiar el color en el hover */
 }
