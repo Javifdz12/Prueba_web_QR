@@ -65,6 +65,11 @@ h2 {
     margin-top: 30px; /* Mayor espacio superior */
 }
 
+.nft-details a{
+    color: white;
+}
+
+
 .nft-media {
     display: flex;
     flex-direction: column; /* Cambiar a flex-direction: column */
