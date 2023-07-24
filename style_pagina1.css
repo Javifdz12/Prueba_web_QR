@@ -103,3 +103,11 @@ h2 {
 .nft-media object[type="application/pdf"] {
     background-color: #ffffff; /* Fondo blanco */
 }
+
+@media (max-width: 600px) {
+    .nft-card {
+        width: 100%; /* Ancho completo en dispositivos móviles */
+        max-width: none; /* Eliminar el ancho máximo para que se ajuste completamente */
+        height: auto; /* Ajustar la altura automáticamente */
+    }
+}
