@@ -28,6 +28,8 @@ body {
     cursor: pointer;
     text-align: center;
     transition: background-color 0.3s ease;
+    padding-left: 2%;
+    padding-right: 2%;
 }
 
 .full-screen-div:nth-child(2) {
@@ -53,4 +55,8 @@ a:hover {
 .full-screen-div:hover {
     background-color: #908d8c; /* Cambio de color de fondo en hover (Rosa lila) */
     box-shadow: 0 0 30px #525150; /* Cambio de sombra en hover (Rosa lila) */
+}
+
+h1{
+    font: 24px;
 }
